@@ -100,7 +100,7 @@ form {
   border-bottom: 3px solid rgb(132, 146, 141);
   border-right: none;
   margin-left: 50px;
-  margin-right: 100px;
+  margin-right: 50px;
 }
 .name:focus {
   border-bottom: 3px solid rgb(0, 255, 157);
@@ -116,7 +116,7 @@ form {
   border-bottom: 3px solid rgb(132, 146, 141);
   border-right: none;
   margin-left: 50px;
-  margin-right: 100px;
+  margin-right: 50px;
 }
 .password:focus {
   border-bottom: 3px solid rgb(0, 255, 157);
