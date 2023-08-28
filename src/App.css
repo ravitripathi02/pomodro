@@ -99,7 +99,7 @@ form {
   height: 40px;
   border-bottom: 3px solid rgb(132, 146, 141);
   border-right: none;
-  margin-left: 100px;
+  margin-left: 50px;
   margin-right: 100px;
 }
 .name:focus {
@@ -115,7 +115,7 @@ form {
   height: 40px;
   border-bottom: 3px solid rgb(132, 146, 141);
   border-right: none;
-  margin-left: 100px;
+  margin-left: 50px;
   margin-right: 100px;
 }
 .password:focus {
@@ -150,4 +150,9 @@ form {
   color: rgb(0, 255, 157);
   cursor: pointer;
   font-size: 19px;
+}
+@media (max-width:594px){
+  .login_form{
+    width:300px;
+  }
 }
