@@ -18,16 +18,16 @@ const ForgetPass = () => {
       });
   };
   return (
-    <div class="main_log">
-      <div class="login_form">
-        <div class="login">
+    <div className="main_log">
+      <div className="login_form">
+        <div className="login">
           <h1>Reset Password</h1>
         </div>
-        <div class="login_con">Enter your detail below to continue</div>
+        <div className="login_con">Enter your detail below to continue</div>
         <form onSubmit={(e) => handleSubmit(e)}>
-          <input class="name" type="text" name="email" placeholder="Email" required />
+          <input className="name" type="text" name="email" placeholder="Email" required />
 
-          <button class="login_btn">Reset</button>
+          <button className="login_btn">Reset</button>
         </form>
       </div>
     </div>
