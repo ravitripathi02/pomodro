@@ -25,7 +25,7 @@ const ForgetPass = () => {
         </div>
         <div class="login_con">Enter your detail below to continue</div>
         <form onSubmit={(e) => handleSubmit(e)}>
-          <input class="name" type="text" name="email" placeholder="Email" />
+          <input class="name" type="text" name="email" placeholder="Email" required />
 
           <button class="login_btn">Reset</button>
         </form>
