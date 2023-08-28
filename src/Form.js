@@ -54,36 +54,36 @@ const Form = () => {
   return (
     <div>
       {login === true ? (
-        <div class="main_log">
-          <div class="login_form">
-            <div class="login">
+        <div className="main_log">
+          <div className="login_form">
+            <div className="login">
               <h1>SignIn</h1>
             </div>
-            <div class="login_con">Enter your detail below to continue</div>
+            <div className="login_con">Enter your detail below to continue</div>
             <form
               onSubmit={(e) => handleSubmit(e, login ? "signin" : "signup")}
             >
               <input
-                class="name"
+                className="name"
                 type="text"
                 name="email"
                 placeholder="Email"
-               required
               />
+
               <input
-                class="password"
+                className="password"
                 type="password"
                 name="password"
                 placeholder="Password"
-       required
               />
-              <div class="forget" onClick={forgetPass}>
+
+              <div className="forget" onClick={forgetPass}>
                 Forget Password?
               </div>
-              <button class="login_btn">Signin</button>
-              <div class="user">
+              <button className="login_btn">Signin</button>
+              <div className="user">
                 New user please{" "}
-                <span onClick={SignUp} class="sign">
+                <span onClick={SignUp} className="sign">
                   <pre> SignUp</pre>
                 </span>
               </div>
@@ -91,34 +91,32 @@ const Form = () => {
           </div>
         </div>
       ) : (
-        <div class="main_log">
-          <div class="login_form">
-            <div class="login">
+        <div className="main_log">
+          <div className="login_form">
+            <div className="login">
               <h1>SignUp</h1>
             </div>
-            <div class="login_con">Enter your detail below to continue</div>
+            <div className="login_con">Enter your detail below to continue</div>
             <form
               onSubmit={(e) => handleSubmit(e, login ? "signin" : "signup")}
             >
               <input
-                class="name"
+                className="name"
                 type="text"
                 name="email"
                 placeholder="Email"
-                  required
               />
               <input
-                class="password"
+                className="password"
                 type="password"
                 name="password"
                 placeholder="Password"
-                  required
               />
 
-              <button class="login_btn">Signup</button>
-              <div class="user">
+              <button className="login_btn">Signup</button>
+              <div className="user">
                 Already have an account{" "}
-                <span onClick={SignIn} class="sign">
+                <span onClick={SignIn} className="sign">
                   <pre> SignIn</pre>
                 </span>
               </div>
