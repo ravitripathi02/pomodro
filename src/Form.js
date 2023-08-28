@@ -68,12 +68,14 @@ const Form = () => {
                 type="text"
                 name="email"
                 placeholder="Email"
+               required
               />
               <input
                 class="password"
                 type="password"
                 name="password"
                 placeholder="Password"
+       required
               />
               <div class="forget" onClick={forgetPass}>
                 Forget Password?
@@ -103,12 +105,14 @@ const Form = () => {
                 type="text"
                 name="email"
                 placeholder="Email"
+                  required
               />
               <input
                 class="password"
                 type="password"
                 name="password"
                 placeholder="Password"
+                  required
               />
 
               <button class="login_btn">Signup</button>
